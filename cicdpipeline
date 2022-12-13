@@ -1,11 +1,11 @@
 node{
- stage('install java project') {
+ stage('install java mahilogin project') {
 
     git 'https://github.com/mahi07nayak/mahalogin-1.git'
  }   
 
 
- stage('execute maven project') {
+ stage('execute maven clone project') {
 
     sh 'mvn install'
  }   
