@@ -1,0 +1,18 @@
+node{
+ stage('install java project') {
+
+    git 'https://github.com/mahi07nayak/mahalogin-1.git'
+ }   
+
+
+ stage('execute maven project') {
+
+    sh 'mvn install'
+ }   
+    
+    
+    
+    
+    
+    
+}
